@@ -111,3 +111,12 @@ function maxInArray(number){
 const heigst=[160, 190, 120, 165, 137];
 const tallest =maxInArray(heigst);
 console.log("tallest person:", tallest);
+
+
+//fibo :
+const fibo=[0 , 1];
+for(i=2; i<=10; i++){
+    fibo[i]= fibo[i-1] +fibo[i-2];
+}
+console.log(fibo);
+
