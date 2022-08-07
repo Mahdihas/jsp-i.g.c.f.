@@ -93,3 +93,21 @@ function maxumum(){
     console.log(`teh largest number in array is ${max}`)
 }
 maxumum();
+function maxInArray(number){
+    let largest=number[0];
+
+    for (i=0; i<number.length; i++){
+        const index=i;
+        const element=number[index];
+        console.log(element);
+        if(element>largest){
+            largest=element;
+        }
+         
+    }
+    return largest;
+
+}
+const heigst=[160, 190, 120, 165, 137];
+const tallest =maxInArray(heigst);
+console.log("tallest person:", tallest);
