@@ -69,3 +69,27 @@
 
 // let result = interestCount(100000);
 // console.log(result);
+
+১. একটা কোড লিখো। যেটা দিয়ে কোন একটা array এর মধ্যে সবচেয়ে ছোট সংখ্যা বের করে দিতে পারবে। 
+function maxumum(){
+    let array=[34,0, 54, 56, 3444];
+    let max=array [0];
+    for (i=0 ;  i<array.length;i++){
+        if(array[i]<max){
+            max=array[i];
+        }
+    }
+    console.log(`teh largest number in array is ${max}`)
+}
+maxumum();
+function maxumum(){
+    let array=[34, 54, 56, 3444];
+    let max=array [0];
+    for (i=0 ;  i<array.length;i++){
+        if(array[i]>max){
+            max=array[i];
+        }
+    }
+    console.log(`teh largest number in array is ${max}`)
+}
+maxumum();
