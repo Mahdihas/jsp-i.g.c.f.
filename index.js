@@ -120,3 +120,43 @@ for(i=2; i<=10; i++){
 }
 console.log(fibo);
 
+//arraAverage.js
+function arrayAverage(numbers) {
+  let sum = 0;
+  for (let i = 0; i <= numbers.length - 1; i++) {
+    // let numList = numbers[i];
+    // console.log(numList);
+    let iCount = numbers.length;
+    console.log(iCount);
+    sum = sum + numbers[i];
+  }
+  return sum;
+}
+
+let values = [45, 67, 77, 24, 88, 89, 35, 68, 34];
+let total = arrayAverage(values);
+console.log(total);
+let average = total / values.length;
+let fixedAverage = average.toFixed(2);
+let floatResult = parseFloat(fixedAverage);
+console.log(floatResult);
+
+// Answers:
+// index count: 9
+// Total: 527
+// Average: 58.56 (Not a String)
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Stat
+//areaRectangle.
+function areaRectangle(length, wide) {
+  let area = 2 * (length + wide);
+  return area;
+}
+
+let result = areaRectangle(12, 5);
+console.log(result);
