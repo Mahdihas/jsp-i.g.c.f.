@@ -160,3 +160,23 @@ function areaRectangle(length, wide) {
 
 let result = areaRectangle(12, 5);
 console.log(result);
+
+
+//find negative number;
+
+function onlyPositive(values) {
+    let positives = [];
+    for (let i = 0; i < values.length; i++) {
+        let value = values[i];
+        if (value > 0) {
+            positives.push(value);
+        } else if (value < 0) {
+            break;
+        }
+    }
+    return positives;
+}
+
+let values = [45, 87, 96, -11, 63, -56, 71, 28];
+let result = onlyPositive(values);
+console.log(result);
