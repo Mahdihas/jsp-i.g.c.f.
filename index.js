@@ -192,3 +192,17 @@ for(num;num>1;num--){
     fac=fac*num;
     console.log(fac);
 }
+
+//১০. তোমাকে যদি বলা হয়। একটা array এর মধ্যে ৮০ এর চাইতে বড় সংখ্যা থাকলে সেগুলাকে console log করে দেখাতে সেটা কি তুমি পারবে? তাহলে তুমি সেই কোড করে ফেলো 
+
+.
+var num=[40,59,34,70,80,90,700,500];
+
+for(i=0;i<num.length;i++){
+    var all=num[i];
+    if(all>80){
+        console.log(all)
+    }
+    
+    
+}
