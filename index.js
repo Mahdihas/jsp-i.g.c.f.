@@ -180,3 +180,15 @@ function onlyPositive(values) {
 let values = [45, 87, 96, -11, 63, -56, 71, 28];
 let result = onlyPositive(values);
 console.log(result);
+
+
+
+
+
+//factorial:
+num=7;
+fac=1;
+for(num;num>1;num--){
+    fac=fac*num;
+    console.log(fac);
+}
