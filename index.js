@@ -206,3 +206,12 @@ for(i=0;i<num.length;i++){
     
     
 }
+
+//১১. তিনটা সংখ্যার গুনফল বের করে ফাইনাল রেজাল্ট আউটপুট হিসেবে রিটার্ন করতে হবে। তুমি কি সেই কোড লিখতে পারবে। যদি পারো তাহলে সেই কোড লিখে ফেলো। 
+
+function sum(num1,num2,num3){
+    let total=num1*num2*num3;
+  return total;   
+}
+let all=sum(2,3,4)
+console.log(all);
